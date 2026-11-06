@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+.dev.vars
+coletor/.env
+coletor/.venv/
+coletor/vendor/
+__pycache__/

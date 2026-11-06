@@ -1,0 +1,13 @@
+name = "diagnostico-instagram"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "public"
+
+[vars]
+MAX_ANALISES_MES = "25"
+MAX_COMENTARIOS = "60"
+MAX_POR_IP_DIA = "5"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "diagnostico"
+database_id = "db0ee812-8bb7-47f2-9667-db6e17dbd21c"

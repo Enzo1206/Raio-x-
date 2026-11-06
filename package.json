@@ -1,0 +1,15 @@
+{
+  "name": "diagnostico-instagram",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "banco:local": "wrangler d1 execute diagnostico --local --file schema.sql",
+    "banco:producao": "wrangler d1 execute diagnostico --remote --file schema.sql",
+    "dev": "wrangler pages dev --port 8788",
+    "publicar": "wrangler pages deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
